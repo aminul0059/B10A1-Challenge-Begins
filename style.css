@@ -65,6 +65,9 @@ align-items: center;
 margin:70px;
 margin-top:150px;
 background-color:beige;
+border-radius: 16px;
+
+background: rgba(13, 19, 33, 0.02);
 }
 .why-development-title{
 
@@ -78,8 +81,76 @@ background-color:beige;
 }
 .div1{
     display:flex;
-    justify-content:center;
+    justify-content:space-between;
     align-items:center;
     background-color:azure;
-    padding:
+    padding:50px;
+    margin:15px 25px;
+    border-radius: 10px;
+}
+.learn-more{
+    /* Frame 7 */
+position: static;
+width: 149px;
+height: 48px;
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 12px 20px 12px 20px;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 32px 0px;
+}
+.div1-text{
+    width:50%;
+}
+.div1-img{
+    width:50%;
+    padding-left:30px;
+}
+main{
+    border:2px solid red;
+}
+.inspiration-section{
+    border:3px solid green;
+position: static;
+width: 1140px;
+height: 614px;
+
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+padding: 32px;
+
+margin: 48px 0px;
+margin: 0 auto;
+
+
+
+
+}
+.inspiration-text{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction:column;
+}
+.iframe{
+    /* Rectangle 1 */
+position: static;
+width: 1076px;
+height: 500px;
+/* Inside Auto Layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+margin: 10px 0px;
 }
