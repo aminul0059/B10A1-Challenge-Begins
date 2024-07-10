@@ -1,6 +1,7 @@
 * {
   font-family: "Azeret Mono", monospace;
   font-optical-sizing: auto;
+  margin:0px;
  
 }
 
@@ -56,6 +57,14 @@ border:2px solid gray;
 border-radius:10px;
 
 
+
+}
+.song{
+    padding:30px;
+
+}
+.btn:hover{
+    cursor:pointer;
 }
 .header-title{
     font-size: 40px;
@@ -121,6 +130,15 @@ margin: 32px 0px;
 .div1-img{
     width:50%;
     padding-left:30px;
+}
+.div-text h1{
+    color: rgba(13, 19, 33, 0.7);
+font-family: Azeret Mono;
+font-size: 24px;
+font-weight: 700;
+line-height: 36px;
+letter-spacing: 0%;
+text-align: left;
 }
 main{
     /* border:2px solid red; */
@@ -203,10 +221,6 @@ justify-content: flex-start;
 align-items: center;
 padding: 0px;
 margin:130px auto;
-
-
-
-
 }
 .cart1{
    /* Frame 10 */
@@ -295,4 +309,74 @@ background: rgba(197, 191, 241, 0.991);
     line-height:10;
     font-weight:800;
     
+}
+.cart-description{
+    opacity:0.8;
+
+}
+
+/* contact section stars here */
+
+.contact-area{
+    background-image:url("assets/handshake.jpg");
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:center;
+  
+width: 1140px;
+height: 314px;
+margin: 0 auto;
+border-radius:10px;
+display:flex;
+align-items:center;
+justify-content:center;
+flex-direction:column;
+color:aliceblue;
+padding:30px;
+background-color:rgba(0, 0, 0, 0.5);
+background-blend-mode:overlay;
+
+}
+.contact-area h1{
+    font-size: 40px;
+   
+    font-weight: 700;
+    line-height: 36px;
+
+}
+.contact-area p{
+    font-size: 20px;
+   
+    font-weight: 700;
+    line-height: 36px;
+
+}
+.input-div input,button {
+    font-size: 20px;
+   color:gray;
+   font-weight: 700;
+   opacity:0.7;
+   padding:10px;
+    font-weight: 700;
+    line-height: 36px;
+    border-radius:15px;
+    margin-bottom:50px;
+ 
+
+}
+.input-div button:hover {
+   cursor:pointer;
+}
+.footer{
+    display:flex;
+    justify-content:space-between;
+    background-color:rgba(231, 191, 241, 0.703);
+    color:rgb(19, 16, 16);
+    padding:30px;
+    border-radius:10px;
+    
+
+}
+.footer-div2 img{
+    margin-right:20px;
 }
