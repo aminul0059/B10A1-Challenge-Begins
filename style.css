@@ -320,7 +320,9 @@ background: rgba(197, 191, 241, 0.991);
 }
 
 /* contact section stars here */
-
+.contact-section{
+    margin-top:300px;
+}
 .contact-area{
     background-image:url("assets/handshake.jpg");
     background-size:cover;
