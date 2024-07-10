@@ -386,3 +386,8 @@ background-blend-mode:overlay;
 .footer-div2 img{
     margin-right:20px;
 }
+
+.rem{
+    font-size:2rem;
+    font-weight: 800;
+}
