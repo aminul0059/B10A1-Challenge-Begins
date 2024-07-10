@@ -1,0 +1,85 @@
+.header{
+    background-image:url('assets/Hero-bg.png');
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    height: 580px;
+   margin-top:70px;
+   padding: 21px 24px 21px 24px;
+
+}
+.header-section-div{
+    margin:0 auto;
+    display:flex;
+    justify-content:center;
+    flex-direction:column;
+    align-items:center;
+}
+.header-img{
+
+width: 240.28px;
+height: 240px;
+left: 257.67%;
+right: -257.67%;
+top: 0%;
+bottom: 0%;
+
+}
+.header-p{
+
+width: 852px;
+height: 52px;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+padding: 0px;
+margin: 0px 0px 25px 0px;
+opacity: 0.7;
+}
+.btn{
+background-color:black;   
+color: rgb(255, 255, 255);
+font-size: 20px;
+font-weight: 600;
+text-align: center;
+padding:18px;
+border:2px solid gray;
+border-radius:10px;
+
+
+}
+.header-title{
+    font-size: 40px;
+    font-weight: 700;
+}
+
+/* why development section starts here */
+
+.why-development-section{
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+align-items: center;
+/* border:2px solid green; */
+margin:70px;
+margin-top:150px;
+background-color:beige;
+}
+.why-development-title{
+
+}
+.flex-header{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+    margin: 0 auto;
+}
+.div1{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background-color:azure;
+    padding:
+}
