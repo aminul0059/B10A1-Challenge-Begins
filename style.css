@@ -1,7 +1,7 @@
 * {
   font-family: "Azeret Mono", monospace;
   font-optical-sizing: auto;
-  margin:0px;
+  /* margin:0px; */
  
 }
 
@@ -221,6 +221,10 @@ justify-content: flex-start;
 align-items: center;
 padding: 0px;
 margin:130px auto;
+/* margin-top:200px; */
+}
+.flex-cart{
+    margin-top:100px;
 }
 .cart1{
    /* Frame 10 */
@@ -351,7 +355,7 @@ background-blend-mode:overlay;
     line-height: 36px;
 
 }
-.input-div input,button {
+.input-div input, .submit-btn {
     font-size: 20px;
    color:gray;
    font-weight: 700;
