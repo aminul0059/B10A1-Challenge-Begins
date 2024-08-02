@@ -5,6 +5,29 @@
  
 }
 
+/* Navbar Styles */
+.main-nav {
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 105px;
+}
+
+.nav-btn {
+  padding: 10px 15px;
+  border-radius: 5px;
+  background-color: transparent;
+  border: 2px solid rgb(182, 177, 177);
+  font-size: 16px;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+
+.nav-btn:hover {
+  background-color: rgb(182, 177, 177);
+  color: white;
+}
 
 
 .header{
@@ -13,7 +36,7 @@
     background-size:cover;
     background-repeat: no-repeat;
     height: 580px;
-   margin-top:70px;
+  /* margin-top: 70px; */
    padding: 21px 24px 21px 24px;
 
 }
